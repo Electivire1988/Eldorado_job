@@ -1,0 +1,1216 @@
+@font-face{
+
+font-family: 'PT Root UI_Medium';
+
+src: url('../Fonts/PT Root UI_Medium/PT Root UI_Medium.eot');
+
+src: url('../Fonts/PT Root UI_Medium/PT Root UI_Medium.eot?iefix') format('eot'),
+
+url('../Fonts/PT Root UI_Medium/PT Root UI_Medium.woff') format('woff'),
+
+url('../Fonts/PT Root UI_Medium/PT Root UI_Medium.ttf') format('truetype');
+
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    position: absolute;
+    width: 1000px;
+    background: #FFF;
+}
+
+hr {
+    opacity: 0.2;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: 0;
+    padding: 0 25px;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: 60px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0;
+}
+
+.header__inner:before {
+    content: "";
+    display: block;
+    width: 207px;
+    height: 3px;
+
+    background-color: #D70E2A;
+
+    position: absolute;
+    left: 0px;
+    right: 793px;
+    bottom: -3px;
+}
+
+.header__logo {
+    position: absolute;
+    width: 95px;
+    height: 40px;
+    left: 25px;
+    right: 880px;
+    top: 12px;
+    bottom: 8px;
+}
+
+.header__eldorado_logo {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 3px;
+}
+
+.header__mvidio_logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 55px;
+    top: 0px;
+
+}
+
+.header__text {
+    position: absolute;
+    height: 21px;
+    left: 150px;
+    right: 146px;
+    top: 22px;
+    bottom: 16px;
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+    opacity: 0.7;
+}
+
+/* Intro */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding-top: 100px;
+}
+
+.intro__text {
+    position: absolute;
+    height: 50px;
+    left: 25px;
+    right: 25px;
+    top: 100px;
+
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 38px;
+    line-height: 50px;
+
+    color: #000;
+}
+
+.intro__inner {
+    padding-bottom: 80px;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+
+}
+
+/* New__design */
+
+.new__design {
+    position: absolute;
+    width: 950px;
+    height: 481px;
+    top: 190px;
+}
+.section__title {
+    position: absolute;
+    height: 40px;
+    left: 25px;
+    right: 25px;
+    top: 41px;
+
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #000;
+}
+
+.section__inner {
+    width: 950px;
+    display: flex;
+    padding-top: 134px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.section__col--one {
+    width: 222px;
+    height: 304px;
+    left: 30px;
+    right: 30px;
+    top: 20px;
+    background: #171717;
+    border-radius: 5px;
+
+}
+
+.section__col--two {
+    width: 223px;
+    height: 346px;
+    left: 30px;
+    right: 30px;
+    top: 20px;
+}
+
+.section__col--three {
+    padding: 0 20px;
+    height: 176px;
+    width: 223px;
+}
+
+.section__col--four {
+    height: 176px;
+    width: 222px;
+}
+
+.galaxy__item {
+    padding: 0 18px 0 15px;
+}
+
+.galaxy__img {
+    margin-top: 20px;
+    background-color: #000;
+}
+
+.galaxy__text {
+    padding-top: 18px;
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFF;
+}
+
+.samsung__img {
+    padding: 0 35px 25px;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.samsung__item {
+    padding: 0 20px;
+}
+
+.samsung__text {
+    height: 120px;
+    width: 223px;
+    padding: 20px 0;
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000;
+}
+
+.icons {
+    padding: 0 20px;
+    height: 176px;
+    width: 223px;
+}
+.icons__item {
+    padding: 0 81px 20px 82px;
+}
+
+.icons__img {
+
+}
+
+.icons__text {
+    height: 96px;
+    width: 223px;
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000;
+}
+
+.gorilla__item {
+    height: 176px;
+    width: 222px;
+}
+
+.gorilla__img {
+    padding: 0 81px 20px 81px;
+}
+
+.gorilla__text {
+    padding: 0 0 0 20px;
+    height: 96px;
+    width: 222px;
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000;
+}
+
+/* Scaner */
+
+.scaner {
+    position: absolute;
+    width: 950px;
+    height: 570px;
+    top: 771px;
+}
+
+.section__scaner {
+    width: 950px;
+    display: flex;
+    padding-top: 134px;
+    justify-content: space
+}
+.quality {
+    padding-bottom: 40px;
+}
+
+.stabilization {
+    padding-bottom: 40px;
+}
+
+.section__col--five {
+    padding: 0;
+}
+
+.section__col--six {
+    padding: 0 41px;
+}
+
+.section__col--seven {
+    padding: 0;
+}
+
+.quality__img {
+    padding-top: 42px;
+}
+
+.stabilization__img {
+    padding-top: 86px;
+}
+
+.slow__motion__img {
+    padding-top: 80px;
+}
+
+.quality__text {
+    height: 144px;
+    width: 343px;
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000;
+}
+
+.stabilization__text {
+    height: 72px;
+    width: 341px;
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000;
+}
+
+.slow__motion__text {
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000;
+}
+
+/* Accessories */
+
+.accessories {
+    position: absolute;
+    width: 950px;
+    height: 374px;
+    top: 1401px;
+}
+
+.section__accessories {
+    padding-bottom: 60px;
+    padding-top: 194px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.accessories__item {
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.section__col--eight {
+    height: 280.25px;
+    width: 222px;
+    padding: 0 20px 0 0;
+}
+.section__col--nine {
+    height: 280.25px;
+    width: 223px;
+    padding: 0 21px 0 0;
+}
+
+.section__col--ten {
+    height: 164px;
+    width: 223px;
+    padding: 0;
+    margin-right: 19px;
+    border-top: 1px solid rgba(0,0,0, 0.2);
+}
+
+.section__col--ten:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    top: 194px;
+
+    background-color: #000;
+
+}
+
+.section__col--eleven {
+    height: 104.72px;
+    width: 223px;
+    padding: 0;
+    border-top: 1px solid rgba(0,0,0, 0.2);
+}
+
+.section__col--eleven:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    top: 194px;
+
+    background-color: #000;
+}
+
+.accessories__text {
+    padding-top: 20px;
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000;
+}
+
+
+/* Applications */
+
+.applications {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 950px;
+    height: 508px;
+    top: 1940px;
+}
+
+.applications__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding:  70px 0 0 25px;
+}
+
+.applications__item {
+    margin-top: 30px;
+    width: 33.33333%;
+
+}
+
+.applications__icon {
+    padding: 0 122px 0 121px;
+}
+
+.applications__text {
+    padding: 20px 20px 0 0;
+    font-family: "PT Root UI_Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000;
+}
+
+/* Burger
+=========================*/
+
+.burger {
+    margin: 0 25px 0 918px;
+    padding: 9px 2px;
+
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.burger__item {
+    display: block;
+    width: 30px;
+    height: 3px;
+
+    background-color: #D70E2A;
+    font-size: 0;
+    color: transparent;
+
+    position: relative;
+}
+
+.burger__item:before,
+.burger__item:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    background-color: #D70E2A;
+
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+
+.burger__item:before {
+    top: -8px;
+}
+
+.burger__item:after {
+    bottom: -8px;
+}
+
+
+/* Media */
+
+@media(max-width: 720px) {
+
+    body {
+        width: 720px;
+    }
+
+    .container {
+        max-width: 670px;
+    }
+
+    .header__inner {
+        width: 670px;
+    }
+
+    /* Intro */
+
+    .intro__inner {
+        width: 670px;
+    }
+
+    /* New__design */
+
+    .new__design {
+        width: 670px;
+    }
+
+    .section__inner {
+        width: 670px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 70px;
+    }
+
+    .section__col--one {
+        width: 325px;
+        height: 333px;
+    }
+
+    .section__col--two {
+        width: 325px;
+        height: 289px;
+    }
+
+    .section__col--three {
+        padding: 0;
+        padding-top: 50px;
+        width: 325px;
+        height: 143px;
+    }
+
+    .section__col--four {
+        padding: 0;
+        padding-top: 50px;
+        width: 325px;
+        height: 122px;
+    }
+
+    .samsung__text {
+        font-size: 14px;
+        height: 63px;
+        width: 325px;
+    }
+
+    .icons {
+        padding: 0;
+    }
+
+    .icons__item {
+        padding: 0 81px 20px 133px;
+    }
+
+    .icons__text {
+        font-size: 14px;
+        width: 325px;
+        height: 143px;
+    }
+
+    .gorilla__text {
+        font-size: 14px;
+        width: 325px;
+        height: 42px;
+    }
+
+    .gorilla__img {
+        padding: 0 81px 20px 153px;
+    }
+
+
+    .header__inner:before {
+        width: 149px;
+    }
+
+    .galaxy__item {
+
+    }
+
+    .galaxy__img {
+        height: 183px;
+        width: 295px;
+    }
+
+    .samsung__img {
+        padding: 0 85px 25px;
+
+        width: 154px;
+        height: 180px;
+    }
+
+
+
+
+    /* Scaner */
+
+    .scaner {
+        top: 938px;
+    }
+
+    .section__title--one {
+        visibility: hidden;
+    }
+
+    .section__title--one:after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "Съемка видео";
+    }
+
+    .section__scaner {
+        width: 670px;
+    }
+
+    .scaner__img {
+        height: 173px;
+        width: 325px;
+    }
+
+    .quality__img {
+    padding-top: 65px;
+    }
+
+    .stabilization__img {
+    padding-top: 117px;
+    }
+
+    .slow__motion__img {
+    padding-top: 107px;
+    }
+
+    .quality__text {
+        height: 189px;
+        width: 203px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .stabilization__text {
+        font-size: 14px;
+        line-height: 21px;
+        height: 84px;
+        width: 203px;
+    }
+
+    .slow__motion__text {
+        font-size: 14px;
+        line-height: 21px;
+        height: 168px;
+        width: 203px;
+    }
+
+
+    /* Burger */
+
+    .burger {
+        margin: 0 25px 0 638px;
+    }
+
+    /* Accessories */
+
+    .accessories {
+        top: 1649px;
+        width: 670px;
+        height: 533px;
+        position: absolute;
+    }
+
+    .section__accessories {
+        position: absolute;
+        width: 670px;
+        height: 463px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 140px 0 30px 0;
+    }
+
+    .accessories__cases {
+        width: 325px;
+        height: 168px;
+        padding: 0 20px 25px 0;
+    }
+
+    .accessories__img {
+        width: 325px;
+        height: 168px;
+    }
+
+    .accessories__item {
+        width: 325px;
+    }
+
+    .accessories__power {
+        padding: 0 0 25px 20px;
+    }
+
+    .section__col--eight {
+        height: 319px;
+    }
+
+    .section__col--nine {
+        width: 325px;
+        height: 319px;
+    }
+
+    .section__col--ten {
+        width: 325px;
+        height: 63px;
+    }
+
+    .section__col--eleven {
+        width: 325px;
+        height: 42px;
+    }
+
+    .accessories__text {
+        width: 325px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .accessories__text--one {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .accessories__text--one:after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 20px;
+        content: "Обширный ассортимент чехлов для каждой модели. Цветовая гамма, отличное качество, премиальные материалы и дополнительные возможности призваны удовлетворить даже самый притязательный вкус.";
+    }
+
+    .accessories__text--two {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .accessories__text--two:after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 20px;
+        content: "Обширный ассортимент чехлов лля каждой модели. Цветовая гамма, отличное качество, премиальные материалы и дополнительные возможности призваны удовлетворить даже самый притязательный вкус.";
+    }
+
+    .section__col--ten:before {
+        position: inherit;
+    }
+
+    .section__col--eleven:before {
+        position: inherit;
+    }
+
+    /* Applications */
+
+    .applications {
+        top: 2300px;
+    }
+
+    .applications__content {
+        width: 670px;
+    }
+
+    .applications__text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .applications__icon--one {
+        padding: 0 76px 0 74px;
+    }
+
+    .applications__icon--two {
+        padding: 0 76px 0 74px;
+    }
+
+    .applications__icon--three {
+        padding: 0 76px 0 74px;
+    }
+
+    .applications__icon--four {
+        padding: 0 76px 0 74px;
+    }
+
+    .applications__icon--five {
+        padding: 0 76px 0 74px;
+    }
+
+
+}
+
+@media(max-width: 320px) {
+
+    body {
+        width: 320px;
+        max-width: 320px;
+    }
+
+    .container {
+        max-width: 290px;
+        padding: 0 15px;
+    }
+
+    hr {
+        visibility: hidden;
+        position: relative;
+    }
+
+    /* Header */
+
+    .header {
+        height: 74px;
+    }
+
+    .header__logo {
+        width: 70px;
+        height: 30px;
+        left: 15px;
+        top: 10px;
+    }
+
+    .header__mvidio_logo {
+        width: 30px;
+        height: 30px;
+        left: 40px;
+    }
+
+    .header__eldorado_logo {
+        width: 25px;
+        height: 25px;
+        top: 2px;
+    }
+
+    .eldorado_logo__img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .mvidio_logo__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header__inner {
+        width: 290px;
+        padding: 13px 0;
+    }
+
+    .header__inner:before {
+        width: 305px;
+        visibility: visible;
+        position: absolute;
+        font-size: 10px;
+        line-height: 25px;
+        opacity: 0.7;
+        height: 24px;
+        padding-left: 15px;
+        background-color: #EFEFEF;
+        content: "Samsung Galaxy S10";
+    }
+
+    .header__text {
+        visibility: hidden;
+        position: relative;
+    }
+
+    /* Intro */
+
+    .intro {
+        padding: 0;
+        height: auto;
+    }
+
+    .intro__text {
+        font-size: 30px;
+        line-height: 40px;
+        left: 15px;
+    }
+
+    .intro__inner {
+        width: 290px;
+        padding-bottom: 214px;
+    }
+
+    /* Burger */
+
+    .burger {
+        margin: 0 25px 0 188px;
+    }
+
+    /* New__design */
+
+    .section__title {
+        font-size: 22px;
+        line-height: 31px;
+        width: 290px;
+        height: 31px;
+        left: 15px;
+    }
+
+    .new__design {
+        width: 320px;
+        height: auto;
+        top: 195px;
+    }
+
+    .section__inner {
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 70px;
+    }
+
+   .section__col--one {
+    width: 290px;
+    height: 307px;
+    }
+
+    .galaxy__img {
+        height: 158px;
+        width: 260px;
+    }
+
+    .galaxy__item {
+        padding: 0 15px 0 15px;
+    }
+
+    .samsung__item {
+        padding: 0;
+    }
+
+    .samsung__img {
+        padding: 40px 68px 25px;
+    }
+
+    .samsung__text {
+        line-height: 21px;
+        height: 63px;
+        width: 290px;
+}
+
+    .section__col--two {
+        width: 290px;
+        height: 289px;
+    }
+
+    .section__col--three {
+        padding: 0;
+        padding-top: 80px;
+        width: 290px;
+        height: 143px;
+    }
+
+    .section__col--four {
+        padding: 0;
+        padding-top: 50px;
+        width: 290px;
+    }
+
+    .gorilla__img {
+        padding: 0 81px 20px 138px;
+    }
+
+    .gorilla__text {
+        padding: 0;
+    }
+
+    .icons__item {
+        padding: 0 114px 20px 114px;
+    }
+
+    .gorilla__img {
+        padding: 0 114px 20px 114px;
+    }
+
+    /* Scaner */
+
+    .scaner {
+        top: 1400px;
+        width: 320px;
+        height: auto;
+        left: -15px;
+    }
+
+    .section__scaner {
+        width: 320px;
+        display: block;
+    }
+
+    .section__title--one {
+        left: 30px;
+}
+
+    .section__col--five {
+        height: 170px;
+        width: 320px;
+    }
+
+    .scaner__img {
+        height: 170px;
+        width: 320px;
+    }
+
+    .section__col--seven {
+        padding: 15px;
+    }
+
+    .quality__text {
+        height: 126px;
+        width: 290px;
+    }
+
+    .stabilization__text {
+        height: 84px;
+        width: 290px;
+    }
+
+    .slow__motion__text {
+        height: 168px;
+        width: 290px;
+    }
+
+    .quality__img {
+        padding: 20px 0 0 10px;
+    }
+
+    .stabilization__img {
+        padding: 20px 0 0 10px;
+    }
+
+    .slow__motion__img {
+        padding: 20px 0 0 10px;
+    }
+
+
+    /* Accessories */
+
+    .accessories {
+        top: 2200px;
+        width: 320px;
+    }
+
+    .section__accessories {
+        width: 290px;
+        height: auto;
+        padding: 140px 0 20px 0;
+    }
+
+    .accessories__item {
+        width: 290px;
+}
+
+    .accessories__img {
+        height: 150px;
+        width: 290px;
+    }
+
+    .accessories__text--one {
+        height: 105px;
+        width: 290px;
+    }
+
+    .accessories__text--two {
+        height: 63px;
+        width: 290px;
+    }
+
+    .section__col--nine {
+        height: 340px;
+    }
+
+    .accessories__power {
+        padding: 0;
+    }
+
+    .section__col--ten {
+        padding-bottom: 40px;
+        width: 290px;
+    }
+
+    .section__col--eleven {
+        width: 290px;
+    }
+
+    .accessories__text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+
+    /* Applications */
+
+    .applications {
+        top: 3140px;
+        width: 320px;
+    }
+
+    .applications__content {
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        padding: 60px 0 0 15px;
+    }
+
+    .applications__item {
+        width: auto;
+
+    }
+
+    .applications__text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .applications__icon--one {
+        padding: 0 114px 0 114px;
+    }
+
+    .applications__icon--two {
+        padding: 0 114px 0 114px;
+    }
+
+    .applications__icon--three {
+        padding: 0 114px 0 114px;
+    }
+
+    .applications__icon--four {
+        padding: 0 114px 0 114px;
+    }
+
+    .applications__icon--five {
+        padding: 0 114px 0 114px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
